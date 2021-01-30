@@ -1,0 +1,7 @@
+# ninja log v5
+0	1350	0	CMakeFiles/SuperResolution.dir/SuperResolution_jni.cpp.o	a94829641d9ab3c5
+7	2652	0	CMakeFiles/SuperResolution.dir/SuperResolution.cpp.o	cd1609ea9339c321
+2653	2907	0	D:/Seminario/examples/lite/examples/super_resolution/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSuperResolution.so	d26c590d604041a
+3	1030	0	CMakeFiles/SuperResolution.dir/SuperResolution_jni.cpp.o	a94829641d9ab3c5
+7	1454	0	CMakeFiles/SuperResolution.dir/SuperResolution.cpp.o	cd1609ea9339c321
+1454	1584	0	D:/Seminario/examples/lite/examples/super_resolution/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSuperResolution.so	d26c590d604041a

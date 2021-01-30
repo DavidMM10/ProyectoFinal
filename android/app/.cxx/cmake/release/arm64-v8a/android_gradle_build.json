@@ -1,0 +1,63 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/Seminario/examples/lite/examples/super_resolution/android/app/src/main/cc/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\MSI\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SuperResolution-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "SuperResolution",
+			"buildCommand" : "C:\\Users\\MSI\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\.cxx\\cmake\\release\\arm64-v8a --target SuperResolution",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DSuperResolution_EXPORTS -ID:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\src\\main\\cc\\..\\..\\..\\..\\libraries\\tensorflowlite\\headers -ID:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\src\\main\\cc\\..\\..\\..\\..\\libraries\\tensorflowlite-gpu\\headers  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -O2 -DNDEBUG  -fPIC   -std=gnu++14  -c ",
+					"src" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/src/main/cc/SuperResolution_jni.cpp",
+					"workingDirectory" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DSuperResolution_EXPORTS -ID:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\src\\main\\cc\\..\\..\\..\\..\\libraries\\tensorflowlite\\headers -ID:\\Seminario\\examples\\lite\\examples\\super_resolution\\android\\app\\src\\main\\cc\\..\\..\\..\\..\\libraries\\tensorflowlite-gpu\\headers  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -O2 -DNDEBUG  -fPIC   -std=gnu++14  -c ",
+					"src" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/src/main/cc/SuperResolution.cpp",
+					"workingDirectory" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libSuperResolution.so",
+			"toolchain" : "3841410281"
+		},
+		"lib_tensorflowlite-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_tensorflowlite",
+			"buildType" : "release",
+			"output" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/src/main/cc/../../../../libraries/tensorflowlite/jni/arm64-v8a/libtensorflowlite_jni.so",
+			"toolchain" : "3841410281"
+		},
+		"lib_tensorflowlite_gpu-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_tensorflowlite_gpu",
+			"buildType" : "release",
+			"output" : "D:/Seminario/examples/lite/examples/super_resolution/android/app/src/main/cc/../../../../libraries/tensorflowlite-gpu/jni/arm64-v8a/libtensorflowlite_gpu_jni.so",
+			"toolchain" : "3841410281"
+		}
+	},
+	"toolchains" : 
+	{
+		"3841410281" : 
+		{
+			"cCompilerExecutable" : "C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/MSI/AppData/Local/Android/Sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
